@@ -29,4 +29,3 @@ jobs:
         with:
           name: mod-jar
           path: build/libs/*.jar
-
