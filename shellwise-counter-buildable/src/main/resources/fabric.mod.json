@@ -1,0 +1,19 @@
+
+{
+  "schemaVersion": 1,
+  "id": "shellwise",
+  "version": "1.0.0",
+  "name": "Shellwise Counter",
+  "description": "Displays nearby turtle count with fade-out increase/decrease HUD.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.example.turtlecounter.TurtleCounterMod"]
+  },
+  "depends": {
+    "minecraft": "1.21.5",
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  }
+}
