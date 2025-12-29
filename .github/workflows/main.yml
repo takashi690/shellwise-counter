@@ -30,7 +30,3 @@ jobs:
           name: mod-jar
           path: build/libs/*.jar
 
-        uses: actions/upload-artifact@v4
-        with:
-          name: mod-jar
-          chmod +x "シェルごとにカウンターを構築可能/gradlew"
